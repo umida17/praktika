@@ -17,6 +17,7 @@ function render(users) {
             <p>${el.url}</p>
             <a href="#">${el.thumbnailUrl}</a>
 </div>
+
         `).join("")
         wapper.innerHTML = cards;
 }
