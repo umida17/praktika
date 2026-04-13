@@ -11,9 +11,9 @@ fetch('https://jsonplaceholder.typicode.com/albums')
 function render(users) {
     const cards = users.map(el =>`
         <div class = "card">
-            <h2>${el.name}</h2>
-            <p>${el.username}</p>
-            <a href="#">${el.email}</a>
+            <h2>${el.userId}</h2>
+            <p>${el.id}</p>
+            <a href="#">${el.title}</a>
 </div>
         `).join("")
         wapper.innerHTML = cards;
