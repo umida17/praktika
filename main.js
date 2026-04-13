@@ -1,7 +1,7 @@
 
 const wapper = document.getElementById("container");
 
-fetch('https://jsonplaceholder.typicode.com/albums')
+fetch("https://jsonplaceholder.typicode.com/photos");
   .then(response => response.json())
   .then(data => {
     render (data)
