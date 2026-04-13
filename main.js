@@ -18,3 +18,4 @@ function render(users) {
         `).join("")
         wapper.innerHTML = cards;
 }
+
