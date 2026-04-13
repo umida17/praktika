@@ -1,4 +1,6 @@
 
+
+
 const wapper = document.getElementById("container");
 
 fetch('https://jsonplaceholder.typicode.com/photos')
