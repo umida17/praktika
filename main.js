@@ -10,6 +10,10 @@ fetch('https://jsonplaceholder.typicode.com/albums')
 
 function render(users) {
     const cards = users.map(el =>`
-        
+        <div class = "card">
+            <h2></h2>
+            <p></p>
+            <a href=""></a>
+</div>
         `)
 }
